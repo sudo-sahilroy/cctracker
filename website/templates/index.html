@@ -181,7 +181,11 @@ https://templatemo.com/tm-503-newline
                         <div class="row">
                           <div class="col-md-4">
                             <div class="left-info">
-                              
+                              <form action="/upload" method="post" enctype="multipart/form-data">
+                                <input type="file" name="file">
+                                <!-- <input type="submit" value="upload"> -->
+                                <button type="submit" id="form-submit" class="btn">Upload</button>
+                              </form>
                             </div>
                           </div>
                           <div class="col-md-8">
